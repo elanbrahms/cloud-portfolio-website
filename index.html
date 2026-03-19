@@ -7,30 +7,99 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Elan's Cloud Engineering Portfolio</h1>
-        <p>Cloud projects built with AWS</p>
-    </header>
+    <div class="page">
+        <div class="container">
 
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>I am building hands-on cloud engineering projects focused on AWS, serverless architecture, automation, and infrastructure.</p>
-        </section>
+            <header class="hero">
+                <div class="hero-text">
+                    <p class="eyebrow">Cloud Portfolio</p>
+                    <h1>Elan — Cloud Engineer</h1>
+                    <p class="hero-description">
+                        Building hands-on AWS projects focused on serverless architecture,
+                        cloud delivery, and practical infrastructure skills.
+                    </p>
+                </div>
 
-        <section>
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Serverless Notes API</h3>
-                <p>A serverless CRUD API built with AWS Lambda, API Gateway, DynamoDB, and AWS SAM.</p>
-                <p><strong>Tech Used:</strong> Lambda, API Gateway, DynamoDB, SAM, Python</p>
-                <p><a href="https://github.com/elanbrahms/serverless-notes-api" target="_blank">View on GitHub</a></p>
-            </div>
-        </section>
-    </main>
+                <div class="hero-links">
+                    <a href="https://github.com/elanbrahms" target="_blank" class="pill-button">GitHub</a>
+                    <a href="https://www.linkedin.com/in/elan-brahms-35a69320b" target="_blank" class="pill-button">LinkedIn</a>
+                </div>
+            </header>
 
-    <footer>
-        <p>© 2026 Elan</p>
-    </footer>
+            <section class="projects-section">
+                <div class="section-header">
+                    <div>
+                        <h2>Featured Projects</h2>
+                        <p class="section-description">
+                            A collection of cloud projects focused on AWS, serverless systems,
+                            and practical architecture.
+                        </p>
+                    </div>
+
+                    <div class="skills">
+                        <span class="badge">AWS</span>
+                        <span class="badge">Serverless</span>
+                        <span class="badge">CloudFront</span>
+                        <span class="badge">Python</span>
+                    </div>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <div class="icon-box icon-blue">☁</div>
+                        <h3>Serverless Notes API</h3>
+                        <p class="project-description">
+                            A full CRUD API built with AWS Lambda, API Gateway, DynamoDB,
+                            and AWS SAM.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span class="tech-badge">Lambda</span>
+                            <span class="tech-badge">API Gateway</span>
+                            <span class="tech-badge">DynamoDB</span>
+                            <span class="tech-badge">SAM</span>
+                        </div>
+
+                        <div class="architecture-box">
+                            <p class="architecture-label">Architecture</p>
+                            <p>Client → API Gateway → Lambda → DynamoDB</p>
+                        </div>
+
+                        <a href="https://github.com/YOUR_USERNAME/serverless-notes-api" target="_blank" class="project-link">
+                            View Project →
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="icon-box icon-purple">🌐</div>
+                        <h3>Cloud Portfolio Website</h3>
+                        <p class="project-description">
+                            A static portfolio site hosted on AWS with Amazon S3 for storage
+                            and CloudFront for global delivery.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span class="tech-badge">S3</span>
+                            <span class="tech-badge">CloudFront</span>
+                            <span class="tech-badge">Route53</span>
+                            <span class="tech-badge">HTML/CSS</span>
+                        </div>
+
+                        <div class="architecture-box">
+                            <p class="architecture-label">Architecture</p>
+                            <p>Client → Route53 → CloudFront → S3</p>
+                        </div>
+
+                        <a href="#" class="project-link">
+                            Live on AWS →
+                        </a>
+                    </article>
+
+                </div>
+            </section>
+
+        </div>
+    </div>
 </body>
 </html>
